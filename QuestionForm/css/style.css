@@ -1,0 +1,196 @@
+@charset "utf-8";
+html {
+    box-sizing: border-box;
+    color: #777;
+    word-wrap: break-word;
+}
+
+.c-btn {
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+    margin: 20px auto;
+}
+
+.c-btn:hover {
+    opacity: 0.8;
+}
+
+.c-btn_form {
+    background-color: transparent;
+    border: #555 1px solid;
+    display: block;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+.c-btn_form:hover {
+    background-color: #555;
+    color: #e7e7e7;
+    transition: all 0.5s;
+}
+
+.c-btn_link:hover a {
+    background-color: #555;
+    color: #e7e7e7;
+    transition: all 0.5s;
+}
+
+.c-btn_link {
+    background-color: transparent;
+    border: #555 1px solid;
+    display: block;
+}
+
+.c-btn_link a {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    display: block;
+    transition: all 0.5s;
+}
+
+
+/* ContactForm for CSS */
+
+.form-container {
+    text-align: center;
+    font-size: 2.0rem;
+    margin: 30px;
+}
+
+.form-container input,
+.form-container textarea {
+    display: block;
+    margin: 30px auto;
+    font-size: 2.0rem;
+    padding: 10px;
+    width: 70%;
+    max-width: 600px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input:focus {
+    outline-color: transparent;
+    border-bottom-color: darkcyan;
+}
+
+.radio-change label {
+    display: inline-block;
+    cursor: pointer;
+    margin: 30px auto;
+    font-size: 2.0rem;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid;
+    transition: all 0.3s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:hover+label,
+input[type="radio"]:checked+label {
+    color: #e7e7e7;
+    background-color: #555;
+    opacity: 0.8;
+}
+
+.question-text {
+    margin: 60px auto;
+    width: 80%;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 1.5;
+}
+
+.question-text span,
+.error {
+    color: red;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: none;
+    background-color: #f5f2f0;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+a.back-btn {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f5f2f0;
+}
+
+.confirm-table {
+    margin: 20px auto;
+    width: 50%;
+    font-size: 2.0rem;
+    line-height: 1.5;
+}
+
+.confirm-table th,
+.confirm-table td {
+    padding: 10px;
+}
+
+.l-confirm .c-btn {
+    display: inline-block;
+}
+
+.jump {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 35px;
+    transition: all 0.3s;
+    display: block;
+}
+
+.jump:hover {
+    color: darkcyan;
+    transition: all 0.3s;
+}
+
+.msg {
+    margin-top: 20px;
+    border: 3px solid;
+    padding: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.error-msg {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-color: red;
+}
+
+.entry-msg {
+    color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.3);
+    border-color: darkcyan;
+}
